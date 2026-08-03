@@ -1,1 +1,1 @@
-edq-lms-toolkit>=1.1.8
+edq-lms-toolkit>=2.0.0,==2.*
