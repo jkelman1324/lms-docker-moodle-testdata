@@ -172,9 +172,6 @@ def main():
     # Add the users.
     add_users(users)
 
-    # Add the assignments.
-    add_assignments(assignments, courses)
-
     # Clean up.
     clean_up()
 
