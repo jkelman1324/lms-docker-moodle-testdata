@@ -1,0 +1,23 @@
+{
+    "method": "GET",
+    "url_path": "grade/report/grader/index.php",
+    "url_anchor": null,
+    "parameters": {
+        "id": "110000000"
+    },
+    "files": [],
+    "headers": {
+        "edq-lms-backend": "moodle",
+        "edq-lms-write": "false",
+        "edq-lms-moodle-user": "course-owner"
+    },
+    "allow_redirects": true,
+    "response_code": 200,
+    "response_headers": {},
+    "json_body": false,
+    "response_body": "[<tbody><tr class=\"heading\"><th class=\"c0\">First name / Last name<a class=\"arrow_link py-1\"></a>First nameLast name</th><th class=\"c1\"><span data-collapse=\"content\">Email address</span></th><th class=\"c2\" data-itemid=\"110000100\"><a class=\"gradeitemheader\">Homework 0</a></th><th class=\"c3\" data-itemid=\"130000301\"><span class=\"gradeitemheader\" tabindex=\"0\" title=\"Course total\">Course total</span></th></tr><tr class=\"userrow odd\" data-uid=\"100030000\" id=\"fixed_user_100030000\"><th class=\"c0\"><a class=\"username\"><span class=\"userinitials size-35\" title=\"__EMPTY_NAME__ course-other\">_c</span>__EMPTY_NAME__ course-other</a></th><td class=\"c1\">course-other@test.edulinq.org</td><td class=\"c2\"><input max=\"2.00000\"/></td><td class=\"c3\"><input max=\"2.00000\"/></td></tr><tr class=\"userrow even\" data-uid=\"100050000\" id=\"fixed_user_100050000\"><th class=\"c0\"><a class=\"username\"><span class=\"userinitials size-35\" title=\"__EMPTY_NAME__ course-student\">_c</span>__EMPTY_NAME__ course-student</a></th><td class=\"c1\">course-student@test.edulinq.org</td><td class=\"c2\"><input max=\"2.00000\"/></td><td class=\"c3\"><input max=\"2.00000\"/></td></tr><tr class=\"avg r0 lastrow\"><th class=\"c0\">Overall average</th><td class=\"c1\">-</td><td class=\"c2\">-</td></tr></tbody>]",
+    "response_modifier": "lms.util.net.clean_moodle_response",
+    "finalize": "lms.util.net.finalize_moodle_exchange",
+    "source_path": null,
+    "extra_options": {}
+}
