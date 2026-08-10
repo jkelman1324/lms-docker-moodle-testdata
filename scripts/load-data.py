@@ -227,8 +227,6 @@ def add_assignments(assignments, courses):
             """
             run_sql(sql)
 
-
-
     # Assignments have module = 1, quizzes have module = 17.
     for (i, assignment) in enumerate(assignments.values()):
         sql = f"""
