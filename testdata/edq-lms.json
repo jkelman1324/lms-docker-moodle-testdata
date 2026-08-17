@@ -1,0 +1,7 @@
+{
+    "server": "localhost:3000",
+    "backend_type": "moodle",
+    "user": "server-admin@test.edulinq.org",
+    "token": "hHKUya4aDV6BnPDuDv8rL7TBFmxmGuBzTMFRrmFfDNaZM4Wy7WQKfufNt9kW9m3W",
+    "course": "1"
+}

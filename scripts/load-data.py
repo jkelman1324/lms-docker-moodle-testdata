@@ -154,6 +154,7 @@ def add_courses(courses):
             run_sql(sql)
 
 def add_assignments(assignments, courses):
+    # { course: [ assignment_id, ... ]
     sections = {}
     for assignment in assignments.values():
         if (assignment["course"] not in sections):
@@ -228,7 +229,7 @@ def add_assignments(assignments, courses):
             run_sql(sql)
 
     # Assignments have module = 1, quizzes have module = 17.
-    for (i, assignment) in enumerate(assignments.values()):
+    for assignment in assignments.values():
         sql = f"""
             INSERT INTO `mdl_course_modules`
                 (id, course, module, instance, section)
