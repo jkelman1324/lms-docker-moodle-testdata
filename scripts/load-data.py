@@ -157,6 +157,9 @@ def add_assignments(assignments, courses):
     # { course: [ assignment_id, ... ]
     sections = {}
     for assignment in assignments.values():
+        if (assignment["type"] == "quiz"):
+            continue
+
         if (assignment["course"] not in sections):
             sections[assignment["course"]] = []
 
