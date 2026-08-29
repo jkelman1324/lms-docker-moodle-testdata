@@ -13,7 +13,7 @@
     "response_code": 200,
     "response_headers": {},
     "json_body": false,
-    "response_body": "[<div class=\"card-body\"><h3 class=\"lead\">Course details</h3><ul><li><a href=\"http://localhost:4000/user/view.php?id=100040000&amp;course=130000000\">Extra Course</a></li><li><a href=\"http://localhost:4000/user/view.php?id=100040000&amp;course=120000000\">Course Using Different Languages</a></li><li><a href=\"http://localhost:4000/user/view.php?id=100040000&amp;course=110000000\">Course 101</a></li></ul></div>]",
+    "response_body": "<div class=\"card-body\"><h3 class=\"lead\">Course details</h3><ul><li><a href=\"http://localhost:4000/user/view.php?id=100040000&amp;course=130000000\">Extra Course</a></li><li><a href=\"http://localhost:4000/user/view.php?id=100040000&amp;course=120000000\">Course Using Different Languages</a></li><li><a href=\"http://localhost:4000/user/view.php?id=100040000&amp;course=110000000\">Course 101</a></li></ul></div>",
     "response_modifier": "lms.util.net.clean_moodle_response",
     "finalize": "lms.util.net.finalize_moodle_exchange",
     "source_path": null,
